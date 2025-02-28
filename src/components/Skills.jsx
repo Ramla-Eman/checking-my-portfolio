@@ -1,6 +1,12 @@
 import React from "react";
-import { FaCss3, FaHtml5, FaJs, FaReact } from "react-icons/fa";
-import { RiFirebaseFill, RiTailwindCssFill } from "react-icons/ri";
+// images
+import Image1 from "../assets/htmlicon.png";
+import Image2 from "../assets/cssicon.png";
+import Image3 from "../assets/js.png";
+import Image4 from "../assets/reacticon.png";
+import Image5 from "../assets/tailwindcss.png";
+import Image6 from "../assets/firebase.png";
+
 // motion
 import { motion } from "framer-motion";
 // variants
@@ -8,27 +14,27 @@ import { fadeIn } from "../variants";
 
 const Icons = [
   {
-    icon: <FaHtml5 className="group-hover:fill-[#E34F26]" />,
+    icon: Image1,
     title: "HTML",
   },
   {
-    icon: <FaCss3 className="group-hover:fill-[#1572B6]" />,
+    icon: Image2,
     title: "CSS",
   },
   {
-    icon: <FaJs className="group-hover:fill-[#F7DF1E]" />,
+    icon: Image3,
     title: "Java Script",
   },
   {
-    icon: <FaReact className="group-hover:fill-[#61DAFB]" />,
+    icon: Image4,
     title: "React JS",
   },
   {
-    icon: <RiTailwindCssFill className="group-hover:fill-[#38B2AC]" />,
+    icon: Image5,
     title: "Tailwind CSS",
   },
   {
-    icon: <RiFirebaseFill className="group-hover:fill-[#FFCA28]" />,
+    icon: Image6,
     title: "Firebase",
   },
 ];
@@ -46,10 +52,10 @@ const Skills = () => {
               whileInView={"show"}
               viewport={{ once: false, amount: 0.3 }}
             >
-              <h4 className="text-[#FE8B30] text-4xl uppercase font-medium mb-2 tracking-wide">
+              <h4 className="text-[#5a2b05] text-4xl uppercase font-medium mb-2 tracking-wide">
                 My Professional
               </h4>
-              <h2 className="text-[45px] lg:text-[80px] leading-none mb-12">
+              <h2 className="text-[45px] lg:text-[80px] leading-none mb-12 text-[#5a2b05] font-semibold">
                 Background Skills and <br /> Accomplishments
               </h2>
             </motion.div>
@@ -67,8 +73,8 @@ const Skills = () => {
                     key={index}
                     className="group flex flex-col items-center justify-center gap-y-5"
                   >
-                    <div className="text-6xl transition-all duration-300 hover:scale-125">
-                      {item.icon}
+                    <div className="transition-all duration-300 w-16 h-16x">
+                      <img src={item.icon} alt="" />
                     </div>
                     <p className="group-hover:text-xl bg-white text-[#FE8B30] group-hover:p-2 rounded opacity-0 group-hover:opacity-100 transition-all duration-300">
                       {item.title}

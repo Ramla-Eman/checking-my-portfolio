@@ -22,7 +22,7 @@ const work = () => {
           >
             {/* text */}
             <div>
-              <h2 className="h2 leading-tight">
+              <h2 className="h2 leading-tight font-semibold">
                 My Latest <br /> Work
               </h2>
               <p className="max-w-sm mb-6">

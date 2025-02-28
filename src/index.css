@@ -73,11 +73,11 @@
   }
 
   .h2 {
-    @apply font-primary text-[50px] mb-6 tracking-[10%] uppercase text-[#FE8B30];
+    @apply font-primary text-[50px] mb-6 tracking-[10%] uppercase text-[#5a2b05];
   }
 
   .h3 {
-    @apply font-primary font-semibold text-[26px] mb-6 leading-[46px];
+    @apply font-primary font-semibold  text-[26px] mb-6 leading-[46px];
   }
 
   .btn {

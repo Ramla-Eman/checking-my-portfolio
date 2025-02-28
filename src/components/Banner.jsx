@@ -49,7 +49,7 @@ const Banner = () => {
               <TypeAnimation
                 sequence={["Developer", 2000, "Front-End Developer", 2000]}
                 speed={50}
-                className="text-[#ce437e]"
+                className="text-[#FE8B30]"
                 wrapper="span"
                 repeat={Infinity}
               />

@@ -32,7 +32,7 @@ const About = () => {
             viewport={{ once: false, amount: 0.3 }}
             className="flex-1"
           >
-            <h2 className="h2 text-[#bb09c5]">About me.</h2>
+            <h2 className="h2">About me.</h2>
             <h3 className="h3 mb-4">I'm a Front-end Developer.</h3>
             <p className="mb-6">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor

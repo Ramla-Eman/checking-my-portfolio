@@ -19,7 +19,7 @@
 }
 
 .siteImage {
-    background-image: url('./assets/site-bg.jpg');
+    background-image: url('./assets/site-bg2.jpg');
 }
 
 .aboutImage {
@@ -32,7 +32,7 @@
 
 .btn {
     background: linear-gradient(92.23deg,
-            #ff56f6 21.43%,
+            #E074C9 21.43%,
             #b936ee 50.63%,
             #3bace2 100%,
             #406aff 117.04%);
@@ -44,7 +44,7 @@
             #406aff 21.43%,
             #3bace2 50.63%,
             #b936ee 100%,
-            #ff56f6 117.04%);
+            #E074C9 117.04%);
 }
 
 .gradient,
@@ -53,7 +53,7 @@
             #406aff 21.43%,
             #3bace2 50.63%,
             #b936ee 100%,
-            #ff56f6 117.04%);
+            #E074C9 117.04%);
 }
 
 .active {
@@ -68,7 +68,7 @@
     }
 
     .h2 {
-        @apply font-primary text-[32px] mb-6 tracking-[10%] uppercase;
+        @apply font-primary text-[32px] mb-6 tracking-[10%] uppercase text-[#CE437E];
     }
 
     .h3 {
@@ -92,7 +92,7 @@
     }
 
     .text-gradient {
-        @apply bg-gradient-to-r text-transparent bg-clip-text from-[#42A6E3] to-[#FF56F6] font-bold font-primary hover:from-[#FF56F6] hover:to-[#42A6E3];
+        @apply bg-gradient-to-r text-transparent bg-clip-text from-[#278BE3] to-[#E074C9] font-bold font-primary hover:from-[#E074C9] hover:to-[#278BE3];
     }
 
     .section {

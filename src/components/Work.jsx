@@ -26,8 +26,7 @@ const work = () => {
                 My Latest <br /> Work
               </h2>
               <p className="max-w-sm mb-6">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Dignissimos similique eos incidunt.
+                Here's how i turn languages in immersive web experience.
               </p>
               <button className="btn btn-sm">View all projects</button>
             </div>

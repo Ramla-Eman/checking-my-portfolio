@@ -38,15 +38,15 @@ const Skills = () => {
     <div id="services" className="section">
       <div className="mx-auto sm:px-15 px-4">
         <div>
-          {/* text */}
           <div className="flex-1 flex flex-col lg:flex-row gap-y-10 items-center lg:gap-x-16">
+            {/* text */}
             <motion.div
               variants={fadeIn("right", 0.3)}
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.3 }}
             >
-              <h4 className="text-[#FE8B30] text-2xl uppercase font-medium mb-2 tracking-wide">
+              <h4 className="text-[#FE8B30] text-4xl uppercase font-medium mb-2 tracking-wide">
                 My Professional
               </h4>
               <h2 className="text-[45px] lg:text-[80px] leading-none mb-12">

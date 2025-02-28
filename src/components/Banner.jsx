@@ -65,8 +65,8 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="mb-8 max-w-lg mx-auto lg:mx-0"
             >
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Dignissimos quae aspernatur laboriosam tempora
+              Transforming ideas into stunning digital experiences. <br className="hidden lg:flex"/> 
+              Blending creativity with code to build the future of the web.
             </motion.p>
             <motion.div
               variants={fadeIn("up", 0.6)}

@@ -26,6 +26,7 @@ const Links = [
   {
     icon: <BsChatSquareText />,
     path: "contact",
+    offset: 200,
   },
 ];
 

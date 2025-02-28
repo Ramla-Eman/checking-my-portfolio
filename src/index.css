@@ -73,7 +73,7 @@
   }
 
   .h2 {
-    @apply font-primary text-[32px] mb-6 tracking-[10%] uppercase text-[#FE8B30];
+    @apply font-primary text-[50px] mb-6 tracking-[10%] uppercase text-[#FE8B30];
   }
 
   .h3 {

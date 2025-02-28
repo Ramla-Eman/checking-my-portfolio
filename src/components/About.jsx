@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 // countup
 import CountUp from "react-countup";
 // intersection obsever hook
@@ -14,6 +14,7 @@ const About = () => {
   const [ref, inView] = useInView({
     threshold: 0.5,
   });
+  const [text, setText] = useState(false);
   return (
     <div id="about" ref={ref} className="section">
       <div className="mx-auto sm:px-15 px-4">
@@ -37,8 +38,32 @@ const About = () => {
             <h2 className="h2">About me.</h2>
             <h3 className="h3 mb-4">I'm a Front-end Developer.</h3>
             <p className="mb-6">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
-              recusandae eligendi quae quis, aliquid blanditiis!
+              <span className="text-xl font-semibold">
+                Coding meets creativity in my world of web development!
+              </span>
+              <br />
+              My name is Ramla Eman, a 15-year-old web developer passionate
+              about crafting engaging digital experiences. I specialize in
+              front-end and full-stack development, using React.js, Tailwind
+              CSS, and Three.js to build modern, high-performance websites. With
+              a keen eye for design and a love for animations, I create
+              interactive and immersive user experiences.
+              <span
+                onClick={() => {
+                  setText(!text);
+                }}
+                className="cursor-pointer font-semibold"
+              >
+                 More
+              </span>
+              {text && (
+                <span>
+                  I believe in continuous learning and pushing the boundaries of
+                  web development. My goal is to transform creative ideas into
+                  functional and visually stunning web applications. Let’s
+                  collaborate and build something extraordinary! 🚀
+                </span>
+              )}
             </p>
             {/* stats */}
             <div className="flex gap-x-6 lg:gap-x-10 mb-12">

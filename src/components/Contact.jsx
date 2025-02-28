@@ -6,8 +6,8 @@ import { fadeIn } from "../variants";
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-16 lg:section">
-      <div className="mx-auto px-15">
+    <section id="contact" className="section w-full">
+      <div className="mx-auto sm:px-15 px-4 w-full">
         <div className="flex flex-col lg:flex-row">
           {/* text */}
           <motion.div
@@ -32,7 +32,7 @@ const Contact = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className="flex-1 border rounded-2xl flex flex-col gap-y-6 pb-24 p-6 items-start"
+            className="flex-1 border rounded-2xl flex flex-col gap-y-6 p-6 items-start"
           >
             <input
               type="text"

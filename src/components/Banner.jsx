@@ -25,7 +25,7 @@ const Socials = [
 const Banner = () => {
   return (
     <div className="min-h-[85vh] lg:min-h-[78vh] flex items-center" id="home">
-      <div className="mx-auto px-15">
+      <div className="mx-auto sm:px-15 px-4">
         <div className="flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12">
           {/* text */}
           <div className="flex-1 text-center font-secondary lg:text-left">

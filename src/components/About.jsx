@@ -14,7 +14,7 @@ const About = () => {
   });
   return (
     <div id="about" ref={ref} className="section">
-      <div className="mx-auto px-15">
+      <div className="mx-auto sm:px-15 px-4">
         <div className="flex flex-col gap-y-10 lg:flex-row lg:items-center lg:gap-x-20 lg:gap-y-0 h-screen">
           {/* img */}
           <motion.div

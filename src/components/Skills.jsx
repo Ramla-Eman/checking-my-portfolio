@@ -36,7 +36,7 @@ const Icons = [
 const Skills = () => {
   return (
     <div id="services" className="section">
-      <div className="mx-auto px-15">
+      <div className="mx-auto sm:px-15 px-4">
         <div>
           {/* text */}
           <div className="flex-1 flex flex-col lg:flex-row gap-y-10 items-center lg:gap-x-16">

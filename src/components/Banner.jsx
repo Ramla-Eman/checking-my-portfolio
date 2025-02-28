@@ -9,16 +9,20 @@ import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 // variants
 import { fadeIn } from "../variants";
+import { Link } from "react-scroll";
 
 const Socials = [
   {
     icon: <FaGithub />,
+    href: "https://github.com/Ramla-Eman",
   },
   {
     icon: <FaLinkedin />,
+    href: "https://www.linkedin.com/in/ramla-eman/",
   },
   {
     icon: <FaInstagram />,
+    href: "https://www.instagram.com/ramlaeman19/?hl=en",
   },
 ];
 
@@ -71,7 +75,16 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0"
             >
-              <button className="btn btn-lg">Conatct me</button>
+              <button className="btn btn-lg">
+                <Link
+                  to="contact"
+                  activeClass="active"
+                  smooth={true}
+                  spy={true}
+                >
+                  Conatct me
+                </Link>
+              </button>
               <a href="#" className="text-gradient btn-link">
                 My Portfolio
               </a>
@@ -82,11 +95,11 @@ const Banner = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0"
+              className="flex text-[50px] gap-x-6 max-w-max mx-auto lg:mx-0"
             >
               {Socials.map((social, index) => {
                 return (
-                  <a key={index} href="#">
+                  <a key={index} href={social.href} className="cursor-pointer">
                     {social.icon}
                   </a>
                 );

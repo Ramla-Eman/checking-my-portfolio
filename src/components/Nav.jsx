@@ -9,6 +9,7 @@ const Links = [
   {
     icon: <BiHomeAlt />,
     path: "home",
+    offset: -200,
   },
   {
     icon: <BiUser />,
@@ -42,7 +43,7 @@ const Nav = () => {
                 activeClass="active"
                 smooth={true}
                 spy={true}
-                offset={-200}
+                offset={link.offset}
                 className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center"
               >
                 {link.icon}

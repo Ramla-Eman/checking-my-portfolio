@@ -1,6 +1,6 @@
 import React from "react";
 // images
-import Image from "../assets/avatar1.jpeg";
+import Image from "../assets/myImage2.png";
 // import icons
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 // type animation
@@ -111,7 +111,7 @@ const Banner = () => {
             variants={fadeIn("down", 0.5)}
             initial="hidden"
             whileInView={"show"}
-            className="flex flex-1 max-w-[320px] -order-1 lg:order-1 lg:max-w-[482px]"
+            className="flex flex-1 max-w-[320px] -order-1 lg:order-1 lg:max-w-[482px] overflow-hidden"
           >
             <img src={Image} alt="" />
           </motion.div>

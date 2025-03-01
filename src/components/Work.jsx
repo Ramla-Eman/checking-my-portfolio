@@ -4,9 +4,9 @@ import { motion } from "framer-motion";
 // variants
 import { fadeIn } from "../variants";
 // img
-import Img1 from "../assets/portfolio-img1.png";
-// import Img2 from "../assets/work-img2";
-// import Img3 from "../assets/work-img3";
+import Img1 from "../assets/workImg1.jpg";
+import Img2 from "../assets/workImg2.jpg";
+import Img3 from "../assets/workImg3.jpg";
 
 const work = () => {
   return (
@@ -33,7 +33,7 @@ const work = () => {
             {/* image */}
             <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
               {/* overlay */}
-              <div className="group-hover:bg-white/20 w-full h-full absolute z-40 transition-all duration-300 "></div>
+              <div className="group-hover:bg-black/20 w-full h-full absolute z-40 transition-all duration-300 "></div>
               {/* img */}
               <img
                 src={Img1}
@@ -42,11 +42,16 @@ const work = () => {
               />
               {/* pretitle */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-300 z-50">
-                <span className="text-gradient">UI/UX Design</span>
+                <span className="text-gradient">E-commerce Website</span>
               </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-white text-3xl">Project Title</span>
+              <a
+                  href="https://comforty-template.vercel.app/"
+                  className="text-white text-3xl"
+                >
+                  Comforty Template
+                </a>
               </div>
             </div>
           </motion.div>
@@ -60,39 +65,49 @@ const work = () => {
             {/* image */}
             <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
               {/* overlay */}
-              <div className="group-hover:bg-white/20 w-full h-full absolute z-40 transition-all duration-300 "></div>
+              <div className="group-hover:bg-black/20 w-full h-full absolute z-40 transition-all duration-300 "></div>
               {/* img */}
               <img
-                src={Img1}
+                src={Img2}
                 alt=""
                 className="group-hover:scale-125 transition-all duration-300"
               />
               {/* pretitle */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-300 z-50">
-                <span className="text-gradient">UI/UX Design</span>
+                <span className="text-gradient">Coffee Shop</span>
               </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-white text-3xl">Project Title</span>
+                <a
+                  href="https://elza-coffee-shop.vercel.app/"
+                  className="text-white text-3xl"
+                >
+                  Elza Coffee
+                </a>
               </div>
             </div>
             {/* image */}
             <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
               {/* overlay */}
-              <div className="group-hover:bg-white/20 w-full h-full absolute z-40 transition-all duration-300 "></div>
+              <div className="group-hover:bg-black/20 w-full h-full absolute z-40 transition-all duration-300 "></div>
               {/* img */}
               <img
-                src={Img1}
+                src={Img3}
                 alt=""
                 className="group-hover:scale-125 transition-all duration-300"
               />
               {/* pretitle */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-300 z-50">
-                <span className="text-gradient">UI/UX Design</span>
+                <span className="text-gradient">Portfolio</span>
               </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-white text-3xl">Project Title</span>
+                <a
+                  href="https://ramla-eman.github.io/Creating-my-father-portfolio/"
+                  className="text-white text-3xl"
+                >
+                  Rizwan Ahmed Portfolio
+                </a>
               </div>
             </div>
           </motion.div>

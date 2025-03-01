@@ -25,7 +25,7 @@ const About = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className="flex-1 aboutImage bg-contain bg-no-repeat h-[640px] mix-blend-lighten bg-top"
+            className="flex-1 aboutImage bg-contain bg-no-repeat h-[640px] bg-top"
           ></motion.div>
           {/* text */}
           <motion.div

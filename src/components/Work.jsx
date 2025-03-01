@@ -7,6 +7,7 @@ import { fadeIn } from "../variants";
 import Img1 from "../assets/workImg1.jpg";
 import Img2 from "../assets/workImg2.jpg";
 import Img3 from "../assets/workImg3.jpg";
+import { Link } from "react-scroll";
 
 const work = () => {
   return (
@@ -28,7 +29,7 @@ const work = () => {
               <p className="max-w-sm mb-6">
                 Here's how i turn languages in immersive web experience.
               </p>
-              <button className="btn btn-sm">View all projects</button>
+              <button className="btn btn-sm"><a href="workpage">View all projects</a></button>
             </div>
             {/* image */}
             <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">

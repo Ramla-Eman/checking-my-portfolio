@@ -8,7 +8,7 @@ import Skills from './components/Skills';
 import Work from './components/Work';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import ChatBot from './chatBot/ChatBot';
+import ChatBot from "./chatBot/ChatBot"
 
 const App = () => {
   return (

@@ -6,18 +6,42 @@ import { fadeIn } from "../variants";
 // import link from react-scroll
 import { Link } from "react-scroll";
 // img
-import Img1 from "../assets/workImg1.jpg";
+import Img1 from "../assets/workImg4.png";
+import Img2 from "../assets/workImg5.png";
+import Img3 from "../assets/workImg6.png";
+import Img4 from "../assets/workImg7.png";
+import Img5 from "../assets/workImg8.png";
 // maping projects
 const Projects = [
   {
     img: Img1,
-    title: "Title",
-    preTitle: "Pre Title",
+    title: "Fake Store API",
+    preTitle: "API Work",
+    link: "https://fake-store-api-sable.vercel.app/",
   },
   {
-    img: Img1,
-    title: "Title",
-    preTitle: "Pre Title",
+    img: Img2,
+    title: "Revelation",
+    preTitle: "Ecommerce Stuffed Animal Toy Shop)",
+    link: "https://stuff-animal-toy-shop-template.vercel.app/",
+  },
+  {
+    img: Img3,
+    title: "Hangman Game",
+    preTitle: "Game",
+    link: "https://hangman-game-one-olive.vercel.app/",
+  },
+  {
+    img: Img4,
+    title: "Unique Bikes",
+    preTitle: "Bikes Shop",
+    link: "https://unique-bikes-landing-page.vercel.app/",
+  },
+  {
+    img: Img5,
+    title: "Portfolio",
+    preTitle: "Client Work",
+    link: "https://ramla-eman.github.io/Abdull-Basit-Portfolio/",
   },
 ];
 
@@ -56,15 +80,15 @@ const WorkPage = () => {
                 />
                 {/* pretitle */}
                 <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-300 z-50">
-                  <span className="text-gradient">{item.title}</span>
+                  <span className="text-gradient">{item.preTitle}</span>
                 </div>
                 {/* title */}
-                <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
+                <div className="absolute -bottom-full left-12 group-active:bottom-14 group-hover:bottom-14 transition-all duration-700 z-50">
                   <a
-                    href="https://comforty-template.vercel.app/"
+                    href={item.link}
                     className="text-white text-3xl"
                   >
-                    {item.preTitle}
+                    {item.title}
                   </a>
                 </div>
               </motion.div>

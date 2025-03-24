@@ -98,14 +98,14 @@ const ChatBot = () => {
           className="md:py-6 md:px-5 pt-[25px] pb-[25px] pl-[15px] pr-[15px] md:h-[460px] h-[calc(90%-55px)] overflow-y-auto flex flex-col gap-5 mb-[82px]"
         >
           {/* message bot-message */}
-          <div className="flex gap-[11px] items-center">
+          {/* <div className="flex gap-[11px] items-center">
             <div>
               <ChatBotIcon />
             </div>
             <p className="bg-[#f6f2ff] text-[#5a2b05] p-1 max-w-[75%] rounded-bl-xs rounded-[7px] font-semibold break-words whitespace-pre-line text-lg">
               Hey there <br /> How can I halp you today?
             </p>
-          </div>
+          </div> */}
           {/* message user-message == Render the chat history dynamically */}
           {chatHistory.map((chat, index) => (
             <ChatMessage key={index} chat={chat} />

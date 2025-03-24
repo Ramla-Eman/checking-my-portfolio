@@ -9,6 +9,7 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 // Link
 import { Link } from "react-scroll";
+import CV_Button from "./CV_Button";
 
 const About = () => {
   const [ref, inView] = useInView({
@@ -54,7 +55,7 @@ const About = () => {
                 }}
                 className="cursor-pointer font-semibold"
               >
-                 More
+                More
               </span>
               {text && (
                 <span>
@@ -96,9 +97,7 @@ const About = () => {
                   Conatct me
                 </Link>
               </button>
-              <a href="#" className="text-gradient btn-link">
-                My Portfolio
-              </a>
+              <CV_Button/>
             </div>
           </motion.div>
         </div>

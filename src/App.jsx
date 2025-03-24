@@ -1,30 +1,27 @@
-import React from 'react'
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // components
-import Header from './components/Header';
-import Banner from './components/Banner';
-import Nav from './components/Nav';
-import About from './components/About';
-import Skills from './components/Skills';
-import Work from './components/Work';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
-import ChatBot from "./chatBot/ChatBot"
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import ChatBot from "./chatBot/ChatBot";
+// pages
+import Work from "./pages/Work";
+import Home from "./pages/Home";
 
 const App = () => {
   return (
-    <div className='siteImage bg-no-repeat bg-cover overflow-hidden'>
-      <Header />
-      <Banner />
-      <Nav />
-      <About />
-      <Skills />
-      <Work />
-      <Contact />
-      <Footer/>
-      <ChatBot/>
-      {/* <div className='h-[4000px]'></div> */}
-    </div>
-  )
-}
+    <Router>
+      <div className="siteImage bg-no-repeat bg-cover overflow-hidden">
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/work" element={<Work />} />
+        </Routes>
+        <Footer />
+        <ChatBot />
+      </div>
+    </Router>
+  );
+};
 
-export default App
+export default App;

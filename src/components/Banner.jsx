@@ -10,6 +10,7 @@ import { motion } from "framer-motion";
 // variants
 import { fadeIn } from "../variants";
 import { Link } from "react-scroll";
+import CV_Button from "./CV_Button";
 
 const Socials = [
   {
@@ -85,9 +86,7 @@ const Banner = () => {
                   Conatct me
                 </Link>
               </button>
-              <a href="#" className="text-gradient btn-link">
-                My Portfolio
-              </a>
+              <CV_Button/>
             </motion.div>
             {/* socials */}
             <motion.div

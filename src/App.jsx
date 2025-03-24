@@ -7,6 +7,7 @@ import ChatBot from "./chatBot/ChatBot";
 // pages
 import Work from "./pages/Work";
 import Home from "./pages/Home";
+import WorkWithMe from "./pages/WorkWithMe";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/work" element={<Work />} />
+          <Route path="/workwithme" element={<WorkWithMe />} />
         </Routes>
         <Footer />
         <ChatBot />

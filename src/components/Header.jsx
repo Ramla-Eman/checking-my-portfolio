@@ -12,7 +12,9 @@ const Header = () => {
             <img src={Logo} alt="" className='sm:w-34 w-28'/>
           </Link>
           {/* button */}
-          <button className='btn btn-sm'>Work with me</button>
+          <button className='btn btn-sm'>
+            <Link to="/workwithme">Work With Me</Link>
+          </button>
         </div>
       </div>
     </header>

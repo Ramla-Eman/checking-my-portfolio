@@ -29,7 +29,7 @@ const work = () => {
               <p className="max-w-sm mb-6">
                 Here's how i turn languages in immersive web experience.
               </p>
-              <button className="btn btn-sm"><LinkRouter to="/work">View all projects</LinkRouter></button>
+              <button className="btn btn-sm"><LinkRouter to="/WorkPage">View all projects</LinkRouter></button>
             </div>
             {/* image */}
             <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">

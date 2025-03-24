@@ -5,7 +5,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import ChatBot from "./chatBot/ChatBot";
 // pages
-import Work from "./pages/Work";
+import WorkPage from "./pages/WorkPage";
 import Home from "./pages/Home";
 import WorkWithMe from "./pages/WorkWithMe";
 
@@ -16,7 +16,7 @@ const App = () => {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/work" element={<Work />} />
+          <Route path="/WorkPage" element={<WorkPage />} />
           <Route path="/workwithme" element={<WorkWithMe />} />
         </Routes>
         <Footer />

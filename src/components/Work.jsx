@@ -5,8 +5,8 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 // img
 import Img1 from "../assets/workImg1.jpg";
-import Img2 from "../assets/workImg2.jpg";
-import Img3 from "../assets/workImg3.jpg";
+import Img2 from "../assets/workImg5.png";
+import Img3 from "../assets/workImg9.png";
 import { Link as LinkRouter } from "react-router-dom";
 
 const work = () => {
@@ -75,15 +75,15 @@ const work = () => {
               />
               {/* pretitle */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-300 z-50">
-                <span className="text-gradient">Coffee Shop</span>
+                <span className="text-gradient">Revelation</span>
               </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
                 <a
-                  href="https://elza-coffee-shop.vercel.app/"
+                  href="https://stuff-animal-toy-shop-template.vercel.app/"
                   className="text-white text-3xl"
                 >
-                  Elza Coffee
+                  Ecommerce Stuffed Animal Toy Shop
                 </a>
               </div>
             </div>
@@ -99,15 +99,15 @@ const work = () => {
               />
               {/* pretitle */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-300 z-50">
-                <span className="text-gradient">Portfolio</span>
+                <span className="text-gradient">Task Management</span>
               </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
                 <a
-                  href="https://ramla-eman.github.io/Creating-my-father-portfolio/"
+                  href="https://fem-hack-task.vercel.app/"
                   className="text-white text-3xl"
                 >
-                  Rizwan Ahmed Portfolio
+                  Participation in Hackathon
                 </a>
               </div>
             </div>

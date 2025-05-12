@@ -7,11 +7,12 @@ import { fadeIn } from "../variants";
 import { Link } from "react-scroll";
 // img
 import Img1 from "../assets/workImg4.png";
-import Img2 from "../assets/workImg5.png";
+import Img2 from "../assets/workImg2.jpg";
 import Img3 from "../assets/workImg6.png";
 import Img4 from "../assets/workImg7.png";
 import Img5 from "../assets/workImg8.png";
-// maping projects
+import Img6 from "../assets/workImg3.jpg";
+// maping projects 750px x 450px
 const Projects = [
   {
     img: Img1,
@@ -21,9 +22,9 @@ const Projects = [
   },
   {
     img: Img2,
-    title: "Revelation",
-    preTitle: "Ecommerce Stuffed Animal Toy Shop)",
-    link: "https://stuff-animal-toy-shop-template.vercel.app/",
+    title: "Coffee Shop",
+    preTitle: "Elza Coffee Shop",
+    link: "https://elza-coffee-shop.vercel.app/",
   },
   {
     img: Img3,
@@ -42,6 +43,12 @@ const Projects = [
     title: "Portfolio",
     preTitle: "Client Work",
     link: "https://ramla-eman.github.io/Abdull-Basit-Portfolio/",
+  },
+  {
+    img: Img6,
+    title: "Portfolio",
+    preTitle: "Rizwan Ahmed Portfolio",
+    link: "https://ramla-eman.github.io/Creating-my-father-portfolio/",
   },
 ];
 

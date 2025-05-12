@@ -13,7 +13,7 @@ const Header = () => {
           </Link>
           {/* button */}
           <button className='btn btn-sm'>
-            <Link to="/workwithme">Work With Me</Link>
+            <Link to="/YourPlan">Your Plan</Link>
           </button>
         </div>
       </div>

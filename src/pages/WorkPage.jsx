@@ -3,8 +3,6 @@ import React from "react";
 import { motion } from "framer-motion";
 // variants
 import { fadeIn } from "../variants";
-// import link from react-scroll
-import { Link } from "react-scroll";
 // img
 import Img1 from "../assets/workImg4.png";
 import Img2 from "../assets/workImg2.jpg";

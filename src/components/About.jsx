@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 // Link
 import { Link } from "react-scroll";
-import CV_Button from "./CV_Button";
+import { Link as RouteLink} from "react-router-dom";
 
 const About = () => {
   const [ref, inView] = useInView({
@@ -97,7 +97,13 @@ const About = () => {
                   Conatct me
                 </Link>
               </button>
-              <CV_Button/>
+              <button className="btn btn-lg">
+                <RouteLink
+                  to="certifications"
+                >
+                  Certifications
+                </RouteLink>
+              </button>
             </div>
           </motion.div>
         </div>

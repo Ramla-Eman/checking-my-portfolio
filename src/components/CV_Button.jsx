@@ -1,10 +1,11 @@
 import React from "react";
+import CV from '../assets/Ramla Eman 2025.pdf'
 
 const CV_Button = () => {
   const downloadCV = () => {
     const link = document.createElement("a");
-    link.href = "/Ramla Eman 2024.pdf";
-    link.download = "Ramla Eman 2024.pdf";
+    link.href = CV;
+    link.download = "Ramla Eman 2025.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

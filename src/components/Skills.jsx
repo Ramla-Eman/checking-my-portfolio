@@ -6,6 +6,10 @@ import Image3 from "../assets/js.png";
 import Image4 from "../assets/reacticon.png";
 import Image5 from "../assets/tailwindcss.png";
 import Image6 from "../assets/firebase.png";
+import Image7 from "../assets/expressjs.png";
+import Image8 from "../assets/nodejs.png";
+import Image9 from "../assets/mongodb.png";
+import Image10 from "../assets/nextjs.png";
 
 // motion
 import { motion } from "framer-motion";
@@ -37,6 +41,22 @@ const Icons = [
     icon: Image6,
     title: "Firebase",
   },
+  {
+    icon: Image7,
+    title: "Express JS",
+  },
+  {
+    icon: Image8,
+    title: "Node JS",
+  },
+  {
+    icon: Image9,
+    title: "MongoDB",
+  },
+  {
+    icon: Image10,
+    title: "Next JS",
+  }
 ];
 
 const Skills = () => {
@@ -56,7 +76,7 @@ const Skills = () => {
                 My Professional
               </h4>
               <h2 className="text-[45px] lg:text-[80px] leading-none mb-12 text-[#5a2b05] font-semibold">
-                Background Skills and <br /> Accomplishments
+                Background Skills
               </h2>
             </motion.div>
             {/* Icons */}
@@ -65,7 +85,7 @@ const Skills = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.3 }}
-              className="rounded-2xl bg-white/20 lg:pb-20 p-7 flex items-center justify-center gap-x-6 flex-wrap overflow-hidden"
+              className="max-w-3xl rounded-2xl bg-white/20 lg:pb-20 p-7 flex items-center justify-center gap-x-6 flex-wrap overflow-hidden"
             >
               {Icons.map((item, index) => {
                 return (

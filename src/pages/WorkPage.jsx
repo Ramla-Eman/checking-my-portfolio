@@ -10,6 +10,9 @@ import Img3 from "../assets/workImg6.png";
 import Img4 from "../assets/workImg7.png";
 import Img5 from "../assets/workImg8.png";
 import Img6 from "../assets/workImg3.jpg";
+import Img7 from "../assets/workImg9.png";
+import Img8 from "../assets/workImg11.png";
+import Img9 from "../assets/workImg12.png";
 // maping projects 750px x 450px
 const Projects = [
   {
@@ -47,6 +50,24 @@ const Projects = [
     title: "Portfolio",
     preTitle: "Rizwan Ahmed Portfolio",
     link: "https://ramla-eman.github.io/Creating-my-father-portfolio/",
+  },
+  {
+    img: Img7,
+    title: "Task Management",
+    preTitle: "Partcipate in Hackathon",
+    link: "https://fem-hack-task.vercel.app/",
+  },
+  {
+    img: Img8,
+    title: "MERN Authentication",
+    preTitle: "Self Made Project",
+    link: "https://mern-auth-frontend-red.vercel.app/",
+  },
+  {
+    img: Img9,
+    title: "Student Feedback App",
+    preTitle: "Completion Course Project in SMIT",
+    link: "https://smit-hackathonfrontend.vercel.app/",
   },
 ];
 

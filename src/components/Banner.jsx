@@ -2,7 +2,8 @@ import React from "react";
 // images
 import Image from "../assets/myImage2.png";
 // import icons
-import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { IoIosMail } from "react-icons/io";
 // type animation
 import { TypeAnimation } from "react-type-animation";
 // import motion
@@ -22,9 +23,9 @@ const Socials = [
     href: "https://www.linkedin.com/in/ramla-eman/",
   },
   {
-    icon: <FaInstagram />,
-    href: "https://www.instagram.com/ramlaeman19/?hl=en",
-  },
+    icon: <IoIosMail />,
+    href: "mailto:ramla.eman.ra@gmail.com",
+  }
 ];
 
 const Banner = () => {
@@ -52,7 +53,7 @@ const Banner = () => {
             >
               <span className="mr-4 text-white">I am a</span>
               <TypeAnimation
-                sequence={["Developer", 2000, "Front-End Developer", 2000]}
+                sequence={["Full-Stack Developer", 2000, "Back-End Developer", 2000]}
                 speed={50}
                 className="text-[#FE8B30]"
                 wrapper="span"

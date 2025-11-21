@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 // Link
 import { Link } from "react-scroll";
-import { Link as RouteLink} from "react-router-dom";
+import { Link as RouteLink } from "react-router-dom";
 
 const About = () => {
   const [ref, inView] = useInView({
@@ -37,18 +37,17 @@ const About = () => {
             className="flex-1"
           >
             <h2 className="h2">About me.</h2>
-            <h3 className="h3 mb-4">I'm a Front-end Developer.</h3>
+            <h3 className="h3 mb-4">I'm a Full-Stack Developer.</h3>
             <p className="mb-6">
               <span className="text-xl font-semibold">
                 Coding meets creativity in my world of web development!
               </span>
               <br />
-              My name is Ramla Eman, a 15-year-old web developer passionate
-              about crafting engaging digital experiences. I specialize in
-              front-end and full-stack development, using React.js, Tailwind
-              CSS, and Three.js to build modern, high-performance websites. With
-              a keen eye for design and a love for animations, I create
-              interactive and immersive user experiences.
+              I'm a full-stack JavaScript developer focused on building scalable
+              and user-friendly web applications. I work with React.js, Node.js,
+              Express, MongoDB and Tailwind CSS to develop clean interfaces and
+              efficient backend systems. I enjoy solving real-world problems,
+              improving performance, and creating smooth user experiences. 
               <span
                 onClick={() => {
                   setText(!text);
@@ -59,10 +58,10 @@ const About = () => {
               </span>
               {text && (
                 <span>
-                  I believe in continuous learning and pushing the boundaries of
-                  web development. My goal is to transform creative ideas into
-                  functional and visually stunning web applications. Let’s
-                  collaborate and build something extraordinary! 🚀
+                  I actively contribute to open-source and continuously learn
+                  new tools and technologies. My goal is to grow as a developer,
+                  work on impactful products, and build meaningful digital
+                  solutions.
                 </span>
               )}
             </p>
@@ -70,7 +69,7 @@ const About = () => {
             <div className="flex gap-x-6 lg:gap-x-10 mb-12">
               <div>
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
-                  {inView ? <CountUp start={0} end={1} duration={3} /> : null}
+                  {inView ? <CountUp start={0} end={2} duration={3} /> : null}
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
                   Years of <br /> Experience
@@ -98,11 +97,7 @@ const About = () => {
                 </Link>
               </button>
               <button className="btn btn-lg">
-                <RouteLink
-                  to="certifications"
-                >
-                  Certifications
-                </RouteLink>
+                <RouteLink to="certifications">Certifications</RouteLink>
               </button>
             </div>
           </motion.div>

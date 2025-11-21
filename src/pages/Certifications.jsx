@@ -9,6 +9,8 @@ import Image2 from "../assets/certificatios/certificate2.png";
 import Image3 from "../assets/certificatios/certificate3.jpeg";
 import Image4 from "../assets/certificatios/certificate4.jpeg";
 import Image5 from "../assets/certificatios/certificate5.png";
+import Image6 from '../assets/certificatios/certificate6.png';
+import Image7 from '../assets/certificatios/certificate7.png';
 
 const cards = [
   {
@@ -52,6 +54,20 @@ const cards = [
     preTitleLink: "https://10pearls.com/",
     date: "Feb 2025",
   },
+  {
+    image: Image6,
+    title: "FEM Hackathon 2025",
+    pretitle: "SMIT (Saylani Mass IT)",
+    preTitleLink: "",
+    date: "April 2025",
+  },
+  {
+    image: Image7,
+    title: "Completion of Web & App Development Course",
+    pretitle: "SMIT (Saylani Mass IT)",
+    preTitleLink: "",
+    date: "OCT 2025",
+  }
 ];
 
 const Certifications = () => {

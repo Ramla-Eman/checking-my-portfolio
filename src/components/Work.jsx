@@ -6,7 +6,7 @@ import { fadeIn } from "../variants";
 // img
 import Img1 from "../assets/workImg1.jpg";
 import Img2 from "../assets/workImg5.png";
-import Img3 from "../assets/workImg9.png";
+import Img3 from "../assets/workImg10.png";
 import { Link as LinkRouter } from "react-router-dom";
 
 const work = () => {
@@ -99,15 +99,15 @@ const work = () => {
               />
               {/* pretitle */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-300 z-50">
-                <span className="text-gradient">Task Management</span>
+                <span className="text-gradient">Food Del</span>
               </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
                 <a
-                  href="https://fem-hack-task.vercel.app/"
+                  href="https://mern-stack-project1-tomato-frontend.vercel.app/"
                   className="text-white text-3xl"
                 >
-                  Participation in Hackathon
+                  Self made Project
                 </a>
               </div>
             </div>
